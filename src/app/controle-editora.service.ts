@@ -6,9 +6,9 @@ import { Editora } from './editora';
 })
 export class ControleEditoraService {
   private editoras: Array<Editora> = [
-    { codEditora: 1, nome: 'Editora A' },
-    { codEditora: 2, nome: 'Editora B' },
-    { codEditora: 3, nome: 'Editora C' }
+    { codEditora: 1, nome: "Companhia das Letras" },
+    { codEditora: 2, nome: "Record" },
+    { codEditora: 3, nome: "Intrínseca" }
   ];
 
   getEditoras(): Array<Editora> {
